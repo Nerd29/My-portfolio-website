@@ -19,13 +19,14 @@ nav{
     margin:0px auto;
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
+    max-width:1140px;
+    /* max-height: 837px; */
     align-items: center;
 
 }
 .logo h2{
     font-size: 45px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 .color-change{
     color: #FD6E0A;
@@ -38,14 +39,14 @@ nav .menu{
     align-items: center;
     
 }
-nav .btn{
+ .btn{
     border: none;
     background-color: #FD6E0A;
     height: 65px;
     width: 150px;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: 600;
     color: white;
 }
 .btn:hover{
@@ -55,4 +56,50 @@ nav .menu a{
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+#banner{
+    display:flex;
+    /* border: 1px solid red; */
+    margin:47px 38px 0px 230px;
+    /* width: 1332px; */
+    /* height: 676px; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 50px; */
+
+}
+#banner .banner-content{
+    max-width: 585px;
+    /* padding-top: 10px; */
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 20px;
+    /* width: 585px; */
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+/* .banner-image{ */
+   
+    /* justify-content: flex-end; */
+/* } */
+#banner .banner-image img{
+    max-width: 584px;
+    /* max-height: 900px; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: block; */
+    vertical-align: top;
 }
