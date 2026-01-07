@@ -12,6 +12,11 @@
 }
 header{
     background-color: #FFF8F3;
+    background: url("../images\ copy/developer.png"),url("../images\ copy/header_bg.png"), #f1d1baee;
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    /* margin-top: 20px; */
+
     padding-top: 50px;
 }
 nav{
@@ -81,7 +86,7 @@ nav .menu a{
 #banner .banner-content h1{
     font-size: 85px;
     font-weight: 800;
-    color: #181818;
+    color: #FD6E0A;
     margin-bottom: 20px;
     /* width: 585px; */
 }
