@@ -108,7 +108,7 @@ nav .menu a{
     /* display: block; */
     vertical-align: top;
 }
-#about{
+#about {
     padding-top: 130px;
     
 }
@@ -117,9 +117,10 @@ nav .menu a{
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-color:#f6c8a8ed;
+    background-color:#f0c6a9c4;
     padding: 131px 157px;
 }
+
 .section-header{
     max-width: 827px;
     text-align: center;
@@ -141,6 +142,7 @@ nav .menu a{
     display: flex;
     justify-content: space-around;
 }
+
 .about-info .card-info p{
     color: #757575;
     font-size: 18px;
@@ -158,4 +160,112 @@ nav .menu a{
 }
 .about-info .card-info h4:hover{
     background-color: bisque;
+}
+
+/* 3rd page */
+#skills{
+    padding-top:130px;
+}
+
+#skills .skills-container{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* background-color:#f3ece8f8; */
+    padding: 131px ;
+} 
+#skills .skills-container .about-skills{ 
+    display: flex;
+     /* justify-content: space-between;  */
+    gap: 24px;
+}
+#skills .skills-container .about-skills .skills-info{
+    /* border: 1px solid red; */
+    max-width: 267px;
+    padding: 30px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #00000032;
+
+}
+.skills-info img{
+    max-width: 44px;
+    margin-bottom: 30px;
+ } 
+ .skills-info h4{
+    color: #181818;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ .skills-info p{
+    font-size: 16px;
+    line-height: 28px;
+     color: #757575;
+    margin-bottom: 30px;
+
+ }
+
+ /* resume */
+ #resume .section-header {
+    /*text-align: center; */
+    margin: 0 auto;
+    padding-top: 130px;
+    /* margin-bottom: 113px; */
+ }
+ #resume .resume-container{
+     width: 74%;
+     max-width: 1140px;
+     margin: 113px auto 0;
+     display: flex;
+     gap: 24px;
+    /* justify-content: space-around; */
+ }
+ .resume-container  .title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #474747;
+ }
+ .resume-container .card-title{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #474747;
+ }
+ .resume-container .uni-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #474747;
+ }
+ .resume-container .details{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 60px;
+    color: #474747;
+ }
+ .resume-container .education .resume-card{
+    background-color: #ffede1;
+    border-radius: 5px;
+    box-shadow:0 6px 50px 0 #00000032;
+    /* padding: 10px; */
+    max-width: 511px;
+    margin-right: 47px;
+ }
+ .resume-container .card-title,.uni-name,.details{
+    padding: 10px;
+ }
+ .resume-container .experience .resume-card{
+    background-color: #e1ffe1;
+    border-radius: 5px;
+    box-shadow:0 6px 50px 0 #00000032;
+    max-width: 511px;
+    margin-right: 47px;
+ }
+#resume .btn{
+    width: 200px;
+    /* margin: 0 auto; */
+    align-items: center;
 }
